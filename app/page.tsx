@@ -45,7 +45,7 @@ export default function Home() {
       <Sidebar activeSection={activeSection} onNavigate={scrollTo} nav={t.nav} />
       <main className="ml-48">
         <IntroSection intro={t.intro} />
-        <WorkSection heading={t.work.heading} />
+        <WorkSection />
         <AboutSection heading={t.about.heading} />
         <BackgroundSection heading={t.background.heading} />
       </main>
